@@ -18,6 +18,12 @@ for Shape Representation </a>
 - SIREN - <a href="https://arxiv.org/abs/2006.09661">Implicit Neural Representations with Periodic Activation Function</a>
 - MFN <a href="https://openreview.net/pdf?id=OmtmcPkkhT"> Multiplicative Filter Networks </a>
 
+# Install 
+
+```bash
+$ pip install INR-collection
+```
+
 # Usage
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
