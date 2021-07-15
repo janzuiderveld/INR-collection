@@ -26,7 +26,7 @@ $ pip install INR-collection
 
 # Usage
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dCtAOhOwfIr-KYzSL5C0XoT1ZofMjNSl?usp=sharing)
 
 We support directly callable implementations of Pi-GAN, IM-NET and SIREN.
 
