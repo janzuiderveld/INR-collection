@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'INR_collection',
   packages = ['INR_collection'],
-  version = '0.13',
+  version = '0.2',
   license='MIT',
-  description = 'A collection of conditional \ modulatable implicit neural representation implementations and basic building blocks in PyTorch.',
+  description = 'A collection of (conditional/modulatable) implicit neural representation implementations and basic building blocks in PyTorch.',
   author = 'Jan Zuiderveld',
   author_email = 'janzuiderveld@gmail.com',
   url = 'https://github.com/janzuiderveld/INR-collection',
-  download_url = 'https://github.com/janzuiderveld/INR-collection/archive/v_01.tar.gz',
-  keywords = ['Implicit', 'neural', 'representation', 'SIREN', 'functional', 'IM-NET'],
+  download_url = 'https://github.com/janzuiderveld/INR-collection/archive/v_02.tar.gz',
+  keywords = ['Implicit neural representations', 'functional', "continouos", 'SIREN' , 'IM-NET'],
   install_requires=[
           'numpy',
           'torch'
@@ -17,11 +17,6 @@ setup(
   classifiers=[
 
     'Development Status :: 4 - Beta',
-
-    # Indicate who your project is intended for
-    'Intended Audience :: Developers',
-    'Topic :: Software Development :: Build Tools',
-
     # Pick your license as you wish
     'License :: OSI Approved :: MIT License',
 
