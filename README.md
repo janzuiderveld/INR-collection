@@ -16,7 +16,7 @@ Additionaly, several nonlinearities, weight initalization methods and progressiv
 - DeepSDF - <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Park_DeepSDF_Learning_Continuous_Signed_Distance_Functions_for_Shape_Representation_CVPR_2019_paper.pdf"> Learning Continuous Signed Distance Functions
 for Shape Representation </a>
 - SIREN - <a href="https://arxiv.org/abs/2006.09661">Implicit Neural Representations with Periodic Activation Function</a>
-- MFN <a href="https://openreview.net/pdf?id=OmtmcPkkhT"> Multiplicative Filter Networks </a>
+- MFN - <a href="https://openreview.net/pdf?id=OmtmcPkkhT"> Multiplicative Filter Networks </a>
 
 # Install 
 
@@ -25,9 +25,6 @@ $ pip install INR-collection
 ```
 
 # Usage
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dCtAOhOwfIr-KYzSL5C0XoT1ZofMjNSl?usp=sharing)
-
 We support directly callable implementations of Pi-GAN, IM-NET and SIREN.
 
 ```python
