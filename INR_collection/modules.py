@@ -479,12 +479,14 @@ class piGAN_custom(nn.Module):
 
     def forward(self, coordinates, z):
         gamma, beta, concat = None, None, None
+        coordinates = coordinates.clone().detach().requires_grad_(True) # allows to take derivative w.r.t. input
+        
         if self.film_conditioning:
             gamma, beta = self.film_mapping_net(z)
         elif self.concat_conditioning_first:
             concat = self.concat_mapping_net(z)
-        coordinates = coordinates.clone().detach().requires_grad_(True) # allows to take derivative w.r.t. input
-        concat = concat.repeat(1, coordinates.shape[1], 1)
+            concat = concat.repeat(1, coordinates.shape[1], 1)
+            
         output = self.net[0](coordinates, gamma=gamma, beta=beta, z=concat)
         for layer in self.net[1:]:
             if layer.film_conditioning:
